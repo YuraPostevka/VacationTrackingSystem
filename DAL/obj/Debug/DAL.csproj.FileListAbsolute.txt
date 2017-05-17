@@ -1,0 +1,14 @@
+D:\DAL\bin\Debug\DAL.dll.config
+D:\DAL\bin\Debug\DAL.dll
+D:\DAL\bin\Debug\DAL.pdb
+D:\DAL\bin\Debug\EntityFramework.dll
+D:\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\DAL\bin\Debug\Models.dll
+D:\DAL\bin\Debug\Models.pdb
+D:\DAL\bin\Debug\EntityFramework.xml
+D:\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\DAL\obj\Debug\DAL.dll
+D:\DAL\obj\Debug\DAL.pdb
+D:\DAL\obj\Debug\DAL.Migrations.Initial.resources
+D:\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache

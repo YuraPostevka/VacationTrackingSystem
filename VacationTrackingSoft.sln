@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{56A8FC03-9F98-43F6-9191-CD8A2A6B97EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{278A016D-A540-4B72-9DF1-9AC5A01F2B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{744678FE-9E26-4685-8FD2-54C783297672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VacationTracking", "VacationTracking\VacationTracking.csproj", "{CB66AF83-1723-4549-B853-55422D7461C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56A8FC03-9F98-43F6-9191-CD8A2A6B97EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A8FC03-9F98-43F6-9191-CD8A2A6B97EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A8FC03-9F98-43F6-9191-CD8A2A6B97EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A8FC03-9F98-43F6-9191-CD8A2A6B97EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278A016D-A540-4B72-9DF1-9AC5A01F2B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278A016D-A540-4B72-9DF1-9AC5A01F2B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278A016D-A540-4B72-9DF1-9AC5A01F2B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278A016D-A540-4B72-9DF1-9AC5A01F2B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744678FE-9E26-4685-8FD2-54C783297672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744678FE-9E26-4685-8FD2-54C783297672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744678FE-9E26-4685-8FD2-54C783297672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744678FE-9E26-4685-8FD2-54C783297672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB66AF83-1723-4549-B853-55422D7461C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB66AF83-1723-4549-B853-55422D7461C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB66AF83-1723-4549-B853-55422D7461C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB66AF83-1723-4549-B853-55422D7461C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<div id="login" class="tab-pane fade in active">
+    <div class="login-inner">
+        <div class="title">
+            <h1>Login</h1>
+        </div>
+        <div class="login-form">
+            <form>
+                <div class="form-details">
+                    <label class="user">
+                        <input type="text" [(ngModel)]="user.email" name="username" placeholder="Username" id="username">
+                    </label>
+                    <label class="pass">
+                        <input type="password" [(ngModel)]="user.password" name="passsword" placeholder="Password" id="password">
+                    </label>
+                </div>
+                <button type="button" (click)="SignIn()" class="btn btn-info" onsubmit="">Sign in</button>
+            </form>
+        </div>
+    </div>
+</div>

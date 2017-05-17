@@ -1,0 +1,12 @@
+D:\BAL\bin\Debug\BAL.dll
+D:\BAL\bin\Debug\BAL.pdb
+D:\BAL\bin\Debug\DAL.dll
+D:\BAL\bin\Debug\Models.dll
+D:\BAL\bin\Debug\EntityFramework.dll
+D:\BAL\bin\Debug\DAL.pdb
+D:\BAL\bin\Debug\DAL.dll.config
+D:\BAL\bin\Debug\Models.pdb
+D:\BAL\bin\Debug\EntityFramework.xml
+D:\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+D:\BAL\obj\Debug\BAL.dll
+D:\BAL\obj\Debug\BAL.pdb

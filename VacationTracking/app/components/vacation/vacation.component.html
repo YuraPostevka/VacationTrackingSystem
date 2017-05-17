@@ -1,0 +1,90 @@
+﻿<div class="row">
+
+    <div class="col-md-3 top-leave-type-statistics">
+        <dl>
+            <dt>12</dt>
+            <dd>Days remaining</dd>
+            <dd>out of 13 in Allowance</dd>
+        </dl>
+    </div>
+
+    <div class="col-md-3 secondary-leave-type-statistics hidden-xs">
+        <dl>
+            <dt>Available types</dt>
+            <dd>Holiday </dd>
+            <dd>Sick Leave (up to 10 days) </dd>
+        </dl>
+    </div>
+
+    <div class="col-md-3 secondary-leave-type-statistics hidden-xs">
+        <dl>
+            <dt>Details</dt>
+            <dd><em>Superviser:</em><span class="pull-right"><a href="mailto:yurapostevka@gmail.com">Yura Postevka</a></span></dd>
+            <dd><em>Department:</em> <span class="pull-right"><a href="/calendar/teamview/?department=1300">Sales</a></span></dd>
+            <dd><em>Allowance in 2017:</em><span class="pull-right"> 13 days</span></dd>
+            <dd>
+            </dd>
+        </dl>
+    </div>
+
+</div>
+
+<div class="row main-row_header">
+    <p class="col-md-12">All requests</p>
+</div>
+
+<div class="row">
+
+    <div class="col-md-8">
+        <p class="visible-xs-block"><em class="text-muted">Scroll table horizontally</em></p>
+        <div class="table-responsive">
+            <table class="table table-hover user-requests-table">
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Dates</th>
+                        <th>Approved by</th>
+                        <th></th>
+                        <th><span class="pull-right">Status</span></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr *ngFor="let item of vacations">
+                        <td>{{item.Type}}</td>
+                        <td>From {{item.StartDate}} to {{item.EndDate}}</td>
+                        <td class="user-request-table-approver">{{item.ApprovedBy}}</td>
+                        <td></td>
+                        <td><span class="pull-right">{{item.Status}}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h4 class="text-center" id="exampleModalLabel">New Request</h4>
+
+        <div class="modal-body">
+
+            <div class="form-group">
+                <label for="leave_type" class="control-label">Leave type:</label>
+                <input [(ngModel)]="newVacation.Type" type="text" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label for="from" class="control-label">From:</label>
+                <input id="meeting" [(ngModel)]="newVacation.StartDate" (ngModelChange)="newVacation.StartDate = $event" type="date" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="to" class="control-label">To:</label>
+                <input id="meeting" [(ngModel)]="newVacation.EndDate" (ngModelChange)="newVacation.EndDate = $event" type="date" class="form-control">
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button (click)="Clear()" type="button" class="btn btn-default">Clear</button>
+            <button (click)="Create()" type="button" class="btn btn-success">Create</button>
+        </div>
+    </div>
+</div>
